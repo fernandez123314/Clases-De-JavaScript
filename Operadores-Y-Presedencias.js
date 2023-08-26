@@ -78,4 +78,16 @@ var nombre = "hola";
 var saludo= "Mundo" + nombre";
 console.log("saludo");
 
+var cadena1 = "Hola, ";
+var cadena2 = "mundo!";
+var resultado = cadena1 + cadena2; // Concatenación
+console.log(resultado); // Esto imprimirá "Hola, mundo!"
+
+var parte1 = "¡Hola, ";
+var parte2 = "cómo ";
+var parte3 = "estás?";
+var mensaje = parte1 + parte2 + parte3; // Concatenación de múltiples cadenas
+console.log(mensaje); // Esto imprimirá "¡Hola, cómo estás?"
+
+
 //Concatenar 2 o mas strings con el operador suma nos dara siempre un nuevo string
