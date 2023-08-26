@@ -26,7 +26,7 @@ var numeroDecimal = 11.75;
 // y no van en comillas ej:
 
 var estoyEntendiendo = true; // verdadero
-var noEntendiendo = false; // falso
+var nontendiendo = false; // falso
 
 //UNDEFINED: Aparecec cuando no le asignamos un valor a la variable ej:
 
