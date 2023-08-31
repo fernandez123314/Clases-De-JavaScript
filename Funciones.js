@@ -4,10 +4,66 @@
 // //  f(x) = x + 3
 // //  x = 5 + 3 ---> 8
 
-// // En Javascript se escriben de la siguiente manera
+
+// Para declarar una función en JavaScript, puedes seguir la siguiente sintaxis:
+
+function nombreDeLaFuncion(parametro1, parametro2) {
+  // Código a ejecutar dentro de la función
+  // Puedes utilizar los parámetros dentro de la función
+  // Puedes realizar operaciones y retornar un resultado si es necesario
+}
+
+// Los parámetros son variables declaradas en la definición 
+// de una función. 
+// Estas variables actúan como marcadores de posición 
+// para los valores que se pasan a la función 
+// cuando se la llama. 
+// Los parámetros se definen dentro de los paréntesis 
+// en la declaración de la función. 
+//Por ejemplo:
+
+function sumar(a, b) {
+  return a + b;
+}
+// En este ejemplo,  a  y  b  son los parámetros 
+// de la función  sumar . 
+// Cuando llamamos a esta función, se espera que proporcionemos 
+// dos valores para  a  y  b . 
+
+// Los argumentos, por otro lado, son los valores reales 
+// que se pasan a una función cuando se la llama. 
+// Estos valores se asignan a los parámetros correspondientes. 
+// Por ejemplo:
+
+sumar(2, 3);
+// En este caso,  2  y  3  son los argumentos 
+// que se pasan a la función  sumar . 
+// Estos valores se asignarán a los parámetros  a  y  b  
+// respectivamente dentro de la función. 
+ 
+
+// Aquí tienes un ejemplo de cómo declarar una 
+// función llamada  saludar  
+// que toma un parámetro  nombre  
+// y muestra un mensaje de saludo en la consola:
+
+function saludar(nombre) {
+  console.log("¡Hola, " + nombre + "!");
+}
+También puedes declarar una función utilizando una expresión de función:
+
+const nombreDeLaFuncion = function(parametro1, parametro2) {
+  // Código a ejecutar dentro de la función
+}
+Recuerda que puedes llamar a una función utilizando su nombre seguido de paréntesis y, si es necesario, proporcionar los argumentos correspondientes:
+
+
+nombreDeLaFuncion(argumento1, argumento2);
+
+//Otro ejemplo
  
 function sumaTres(x){
-    console.log(x + 3);
+  console.log(x + 3);
 }
 // sumaTres(5);
 
@@ -28,13 +84,15 @@ function sumaTres(x){
 //     en este caso le decimos que cuando la funcion se ejecute
 //     debe imprimir en la consola el valor de x sumado 3 --> console.log(x + 3);
 
+
 //Existen 3 tipos de funciones  de declarar una funcion
 
 //PRIMERO:
 
 function sumaTres(x){
     return x + 3; // AHORA SE RETORNA LA FUNCION
-}
+} 
+
 
 //SEGUNDO
 
